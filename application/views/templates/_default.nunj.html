@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>{{ pageTitle }}</title>
+    <meta name="description" content="{{ metaDescription }}" />
+    {% block meta %}{% endblock %}
+
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon" />
+
+    <!-- mobile meta (hooray!) -->
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- build:css /assets/stylesheets/application.min.css -->
+    <link rel="stylesheet" href="/assets/stylesheets/application.css" />
+    <!-- endbuild -->
+
+    {% block head %}
+    {% endblock %}
+
+
+</head>
+<body class="{{ bodyClass if bodyClass | safe }}" data-current-section="1" >
+
+    <div id="page">
+        {% block main %}
+        {% endblock %}
+    </div>
+
+    <!-- build:js /assets/javascripts/application.min.js -->
+    <script src="/assets/javascripts/vendors.js"></script>
+    <script src="/assets/javascripts/base/plugins.js"></script>
+    <script src="/assets/javascripts/parallax.js"></script>
+    <script src="/assets/javascripts/config.js"></script>
+    <script src="/assets/javascripts/scene.js"></script>
+    <script src="/assets/javascripts/lights.js"></script>
+    <script src="/assets/javascripts/objects/sea.js"></script>
+    <!--<script src="/assets/javascripts/objects/clouds.js"></script>-->
+    <!--<script src="/assets/javascripts/objects/sky.js"></script>-->
+    <!--<script src="/assets/javascripts/objects/pilot.js"></script>-->
+    <!--<script src="/assets/javascripts/objects/plane.js"></script>-->
+    <script src="/assets/javascripts/loop.js"></script>
+    <script src="/assets/javascripts/application.js"></script>
+    <!-- endbuild -->
+
+</body>
+</html>

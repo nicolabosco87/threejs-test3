@@ -1,0 +1,24 @@
+{
+  "name": "wok",
+  "version": "3.1.0",
+  "authors": [
+    "Marco Solazzi <marco.solazzi@gmail.com>",
+    "Matteo Guidotto <j8.matteo@gmail.com>",
+    "Umberto Quintarelli <umberto.quintarelli@intesys.it>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bootstrap-sass": "^3.3.7",
+    "threejs": "*",
+    "scrollmagic": "^2.0.5",
+    "gsap": "^1.19.0"
+  }
+}

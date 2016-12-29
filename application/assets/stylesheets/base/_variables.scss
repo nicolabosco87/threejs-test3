@@ -1,0 +1,50 @@
+
+//Colours
+$color_blue_bmw: #1C69D4;
+$c-blue: $color_blue_bmw;
+
+$c-white: #fff;
+$c-black: #000;
+
+
+$color_gradient_button_icon_from: #0E96FC;
+$color_gradient_button_icon_to: $color_blue_bmw;
+
+$color_gradient_button_from: #858585;
+$color_gradient_button_to: #515151;
+
+
+//Bootstrap Variables Override
+$text-color: $c-black;
+$link-color: $c-black;
+$link-hover-color: $c-blue;
+$link-hover-decoration: underline;
+
+$brand-primary: $c-blue;
+$brand-danger: #D20000;
+
+$body-bg: #e4e0ba;
+
+$font-size-base: 16px;
+$font-size-h1: 55px;
+$font-size-h2: 47px;
+$font-size-h4: 21px;
+$font-family-sans-serif: Arial, sans-serif;
+$font-family-base: $font-family-sans-serif !default;
+
+$headings-color: #905312;
+$headings-font-weight: 700;
+
+$input-border-radius: 0px;
+$form-group-margin-bottom: 42px;
+
+
+$container-large-desktop: (1240px + 30px);
+$screen-lg: 1300px;
+
+$container-desktop: (1040px + 30px);
+$screen-md: 1092px;
+
+//Timing
+
+$fast-animation: 0.2s;
